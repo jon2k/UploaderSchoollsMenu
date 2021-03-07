@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FtpUploadMksh", "FtpUploadMksh\FtpUploadMksh.csproj", "{D0CC09DA-421E-4245-941E-A0B875501BDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UploaderMenu", "UploaderMenu\UploaderMenu.csproj", "{7320FBDC-B125-4217-B8B9-AD60B9BE8400}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0CC09DA-421E-4245-941E-A0B875501BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0CC09DA-421E-4245-941E-A0B875501BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0CC09DA-421E-4245-941E-A0B875501BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0CC09DA-421E-4245-941E-A0B875501BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7320FBDC-B125-4217-B8B9-AD60B9BE8400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7320FBDC-B125-4217-B8B9-AD60B9BE8400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7320FBDC-B125-4217-B8B9-AD60B9BE8400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7320FBDC-B125-4217-B8B9-AD60B9BE8400}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E55CFBE9-8DD6-460D-8534-FBEAAA2AF24B}
+	EndGlobalSection
+EndGlobal

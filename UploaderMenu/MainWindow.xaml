@@ -1,0 +1,26 @@
+﻿<Window x:Class="UploaderMenu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:local="clr-namespace:UploaderMenu"
+        d:DataContext="{d:DesignInstance local:ViewModelMain}"
+        mc:Ignorable="d"
+        Title="Загрузчик меню для столовой" Height="320" Width="800" ResizeMode="NoResize">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding UpdateTime}" />
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <StackPanel>
+        <TextBlock Text="Загрузка меню для столовой" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30"></TextBlock>
+        <ListView ItemsSource="{Binding AllMenu}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <local:OneMenu DataContext="{Binding }"></local:OneMenu>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackPanel>
+</Window>
